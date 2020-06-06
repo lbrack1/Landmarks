@@ -15,6 +15,9 @@
 		F22D247B248BFC2800954768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22D2479248BFC2800954768 /* LaunchScreen.storyboard */; };
 		F22D2486248BFC2800954768 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D2485248BFC2800954768 /* LandmarksTests.swift */; };
 		F22D2491248BFC2800954768 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D2490248BFC2800954768 /* LandmarksUITests.swift */; };
+		F22D24A1248BFF2E00954768 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D24A0248BFF2E00954768 /* CircleImage.swift */; };
+		F22D24A3248C024900954768 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D24A2248C024900954768 /* MapView.swift */; };
+		F22D24A5248C046200954768 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = F22D24A4248C046200954768 /* Models */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F22D248C248BFC2800954768 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22D2490248BFC2800954768 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		F22D2492248BFC2800954768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22D24A0248BFF2E00954768 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F22D24A2248C024900954768 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F22D24A4248C046200954768 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				F22D246E248BFC2700954768 /* AppDelegate.swift */,
+				F22D24A4248C046200954768 /* Models */,
 				F22D2470248BFC2700954768 /* SceneDelegate.swift */,
 				F22D2472248BFC2700954768 /* ContentView.swift */,
 				F22D2474248BFC2800954768 /* Assets.xcassets */,
+				F22D24A0248BFF2E00954768 /* CircleImage.swift */,
+				F22D24A2248C024900954768 /* MapView.swift */,
 				F22D2479248BFC2800954768 /* LaunchScreen.storyboard */,
 				F22D247C248BFC2800954768 /* Info.plist */,
 				F22D2476248BFC2800954768 /* Preview Content */,
@@ -242,6 +251,7 @@
 			files = (
 				F22D247B248BFC2800954768 /* LaunchScreen.storyboard in Resources */,
 				F22D2478248BFC2800954768 /* Preview Assets.xcassets in Resources */,
+				F22D24A5248C046200954768 /* Models in Resources */,
 				F22D2475248BFC2800954768 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +279,8 @@
 			files = (
 				F22D246F248BFC2700954768 /* AppDelegate.swift in Sources */,
 				F22D2471248BFC2700954768 /* SceneDelegate.swift in Sources */,
+				F22D24A3248C024900954768 /* MapView.swift in Sources */,
+				F22D24A1248BFF2E00954768 /* CircleImage.swift in Sources */,
 				F22D2473248BFC2700954768 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
